@@ -598,8 +598,13 @@ progress {
   content: "— ";
 }
 
-.img-fluid {
+.img-fluid-me {
   max-width: 10%;
+  height: auto;
+}
+
+.img-fluid {
+  max-width: 80%;
   height: auto;
 }
 
