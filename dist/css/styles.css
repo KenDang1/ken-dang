@@ -604,7 +604,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 80%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -675,6 +675,7 @@ progress {
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
